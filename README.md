@@ -14,3 +14,9 @@ tsc --init //初始化 ts
 
 ####  装 react
 npm i react react-dom react-router-dom @types/react @types/react-dom @types/react-router-dom -S
+#### 装webpack 
+npm i webpack webpack-cli webpack-dev-server html-webpack-plugin hoist-non-react-statics -D
+#### 装ts loader
+npm i typescript ts-loader source-map-loader -D
+#### 装  全局状态管理
+npm i redux react-redux  @types/react-redux redux-thunk redux-logger @types/redux-logger -S

@@ -21,8 +21,16 @@
     "commitizen": "^4.2.3",
     "conventional-changelog-cli": "^2.1.1",
     "cz-conventional-changelog": "^3.3.0",
+    "hoist-non-react-statics": "^3.3.2",
+    "html-webpack-plugin": "^5.3.1",
     "husky": "^5.1.3",
-    "validate-commit-msg": "^2.14.0"
+    "source-map-loader": "^2.0.1",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.3",
+    "validate-commit-msg": "^2.14.0",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "config": {
     "commitizen": {
@@ -32,9 +40,15 @@
   "dependencies": {
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.2",
+    "@types/react-redux": "^7.1.16",
     "@types/react-router-dom": "^5.1.7",
+    "@types/redux-logger": "^3.0.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0"
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
   }
 }
